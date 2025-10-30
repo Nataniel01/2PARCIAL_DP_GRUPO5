@@ -1,0 +1,32 @@
+{
+  "name": "proyectohispanidad",
+  "version": "1.0.0",
+  "description": "Proyecto educativo hecho con HTML, Semantic UI y Sass.",
+  "main": "index.js",
+  "scripts": {
+  "sass:watch": "sass --watch public/sass:public/css --no-source-map",
+  "sass:build": "sass public/sass:public/css --style=compressed --no-source-map",
+  "serve": "serve public",
+  "predeploy": "npm run sass:build",
+  "deploy": "gh-pages -d public"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nataniel01/2PARCIAL_DP_GRUPO5.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nataniel01/2PARCIAL_DP_GRUPO5/issues"
+  },
+  "homepage": "https://github.com/Nataniel01/2PARCIAL_DP_GRUPO5#readme",
+  "dependencies": {
+    "semantic-ui-css": "^2.5.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0",
+    "sass": "^1.93.2",
+    "serve": "^14.2.5"
+  }
+}

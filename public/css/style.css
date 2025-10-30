@@ -1,0 +1,85 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #0d1b2a;
+  color: #ffffff;
+}
+
+.hero-header {
+  background: #0d1b2a;
+  padding: 3rem 0;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(244, 197, 66, 0.4);
+}
+.hero-header .hero-title {
+  color: #f4c542;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.menu-buttons .ui.button {
+  background-color: #f4c542;
+  color: #0d1b2a;
+  font-weight: bold;
+  margin: 0.5rem;
+  transition: all 0.3s ease;
+}
+.menu-buttons .ui.button:hover {
+  background-color: rgb(241.195, 182.21, 17.805);
+  color: #ffffff;
+  transform: translateY(-3px);
+}
+
+.hero-images {
+  padding: 3rem 0;
+}
+.hero-images .ui.cards .card {
+  background-color: transparent;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+.hero-images .ui.cards .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(244, 197, 66, 0.5);
+}
+.hero-images .ui.cards .card .image img {
+  max-height: 250px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.hero-text {
+  padding: 2rem 0;
+}
+.hero-text p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  text-align: justify;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.footer-main {
+  background-color: #0d1b2a;
+  padding: 1.5rem 0;
+  border-top: 3px solid #f4c542;
+}
+.footer-main p {
+  margin: 0;
+  color: #ffffff;
+  font-size: 0.9rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .hero-title {
+    font-size: 2rem;
+  }
+  .menu-buttons .ui.button {
+    width: 100%;
+    margin: 0.5rem 0;
+  }
+  .hero-images .ui.cards .card .image img {
+    max-height: 200px;
+  }
+}
